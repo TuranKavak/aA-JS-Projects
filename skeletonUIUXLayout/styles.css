@@ -1,0 +1,191 @@
+html, body, div, span, a, form, ul, li, nav, h1 {
+    padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+
+    /* Style the navigation bar */
+    .navbar {
+        width: 100%;
+        background-color: #555;
+        overflow: auto;
+    }
+
+    /* Navbar links */
+    .navbar a {
+        float: left;
+        text-align: center;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    /* Navbar links on mouse-over */
+    .navbar a:hover {
+        background-color: #000;
+    }
+
+    /* Current/active navbar link */
+    .active {
+        background-color: #4CAF50;
+    }
+
+    /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+    @media screen and (max-width: 500px) {
+        .navbar a {
+            float: none;
+            display: block;
+        }
+    }
+
+h1 {
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+img {
+
+    height: 20px;
+    width: 3%;
+
+}
+
+.p {
+    font-size: 10px;
+    font-family: 'Russo One',
+    sans-serif;
+    margin: auto;
+    padding: 10px;
+}
+
+.one {
+
+}
+
+.lists {
+    background-color: #ffdddd;
+}
+
+.slists {
+    background-color: lightsalmon;
+}
+
+.visit {
+    background-color: lightyellow;
+}
+.workout {
+    background-color: lightblue;
+}
+
+.quotes {
+    background-color: lightgreen;
+}
+/* NAVBAR */
+
+.navbar ul {
+    font-size: 20px;
+    font-family: 'Russo One',sans-serif;
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: green;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar ul li a:hover {
+    background-color: #111;
+}
+
+/* FOOTER */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 100px;
+  background-color:grey;
+  color: white;
+  text-align: center;
+}
+
+div .link {
+    color: #ff0000;
+    font-size: 20px;
+}
+
+div a.link:visited {
+    color: black;
+}
+
+div a.link:hover {
+    color: #ffcc00;
+}
+
+
+div .footer__legal {
+    font-size: 20px;
+}
+
+
+
